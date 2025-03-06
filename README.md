@@ -56,11 +56,21 @@ Os exercícios foram desenvolvidos para aprimorar os conceitos estudados em sala
 ---
 ## 📖 Exemplos de Código
 
-```java
-public class Exemplo {
+public class Atividade6_10 {
+
     public static void main(String[] args) {
-        System.out.println("Olá, mundo!");
+        Scanner teclado = new Scanner(System.in);
+        Temperatura t = new Temperatura();
+        
+        System.out.println("Informe os graus celsius");
+        t.setCelsius(teclado.nextDouble());
+        
+        t.exibir();
+        
+        
+        
     }
+    
 }
 ```
 ---
