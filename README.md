@@ -41,18 +41,6 @@ Os exercícios foram desenvolvidos para aprimorar os conceitos estudados em sala
    mvn exec:java -Dexec.mainClass="com.exemplo.Main"
    ```
 ---
-## 📂 Estrutura do Repositório
-
-```bash
-📂 nome-do-repositorio
-├── 📁 src/main/java
-│   ├── 📁 com.exemplo.exercicios
-│   │   ├── Exercicio01.java
-│   │   ├── Exercicio02.java
-│   │
-├── 📄 README.md
-└── 📄 .gitignore
-```
 ---
 ## 📖 Exemplos de Código
 
